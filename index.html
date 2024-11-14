@@ -1,35 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create Portfolio Gallery Using HTML and CSS</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="background">
-        <div class="mainbox">
+        <div class="mainbox" id="home">
             <div class="leftside">
-            <div class="intro">Hello, My Name is<br>
-                <div class="me"><h2>Jedidiah Martinez</h2></div>
-                And I am a BSIS Student of WPU CAS
+                <div class="intro">
+                    Hello, My Name is
+                    <h1>Jedidiah Martinez</h1>
+                    <p>And I am a BSIS Student of WPU CAS<br>
+                        I am a young Programmer aspiring to be of great contributer to our society.
+                    </p>
+                </div>
             </div>
-            <div class="info">
-                I am a young Programmer aspiring to be of great contributer to our society.
-            </div>
-           
-            
-            </div>
+
             <div class="rightside">
-                <div class="mypic">
-                    <img src="/picture/profile.webp" >
+                <div class="menu">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#contacts">Contacts</a>
+                </div>
+                <div><img src="/picture/profile.png"></div>
+            </div>
+        </div>
+
+        <div class="body">
+            <div class="about" id="about">
+                <div><h1>About Me</h1></div>
+                <div class="aboutcontent">
+                    <div class="abouttext1">
+                        <img src="/picture/elnido.jpg" id="elnido">
+                         <p>Living at El Nido, Palawan</p>
+                         
+                     </div>
+                     <div>
+                         <img src="/picture/enhs.jpg" id="enhs">
+                         <p>Graduated at El Nido National High School</p>
+                         
+                         
+                     </div>
+                     <div>
+                         <img src="/picture/wpu.jpg" id="wpu">
+                         <p>Currently staying at San Juan, Aborlan, Palawan and studying at Western Philippines University</p>
+                         
+                     </div>
+                     <div>
+                         <img src="/picture/movies.jpg" id="movies">
+                         <p>Loves watching movies and animes, reading manhwa comics and mangas</p>
+                         
+                     </div>
+                    </div>
                 </div>
                 
 
+
+                <div class="aboutimage">
+                    
+                    
+
+                    
                 </div>
-            </div>
+                
+             </div>
+
         </div>
     </div>
-
 </body>
+
 </html>
