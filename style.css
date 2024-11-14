@@ -1,0 +1,29 @@
+.background{
+    background: linear-gradient(to bottom,black, rgb(41, 178, 246))
+    
+}
+.mainbox{
+    background-color: rgb(40, 34, 66);
+    color: white;
+    height: 100vh;
+    width: 90%;
+    display: flex;
+    
+    border-radius: 5px;
+
+}
+.leftside{
+    background-color: black;
+    width: 50%;
+
+}
+.rightside img{
+    height: 250px;
+
+}
+.rightside{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 50%;
+}
